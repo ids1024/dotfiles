@@ -1,0 +1,74 @@
+set my_name = 'Ian D. Scott'
+set from = 'ian@perebruin.com'
+alternates 'scott-ian@sbcglobal.net'
+set editor = 'vim'
+
+set sleep_time = 0
+set mail_check = 1
+set read_inc=1000
+
+set edit_headers
+set sort = threads
+set sort_aux = last-date-received
+
+set pgp_verify_command="gpg --no-verbose --batch --output - --verify %s %f"
+
+auto_view text/html
+alternative_order text/plain text/html
+
+set folder = '~/.mail/perebruin'
+set mailcap_path = ~/.mutt/mailcap
+
+set spoolfile = +INBOX
+mailboxes = +INBOX
+set record = +Sent
+set postponed = +Drafts
+
+#SMTP
+set sendmail="/usr/bin/msmtp"
+
+source ~/.mutt/colors
+
+
+# Abook
+set query_command= "abook --mutt-query '%s'"
+macro index,pager  a "<pipe-message>abook --add-email-quiet<return>" "Add this sender to Abook"
+bind editor        <Tab> complete-query
+
+
+#Keybindings
+macro index c <change-folder>?
+
+bind index h quit
+bind index l display-message #overides limit command
+bind index <left> quit
+bind index <right> display-message
+
+bind browser h exit
+bind browser l select-entry
+bind browser <left> exit
+bind browser <right> select-entry
+
+bind pager h exit #overides header weeding
+bind pager j next-line
+bind pager k previous-line
+bind pager <left> exit
+bind pager <down> next-line
+bind pager <up> previous-line
+
+
+bind pager \cf next-page #overides forget password
+bind pager \cb previous-page #overides urlview
+
+bind pager H display-toggle-weed
+#bind pager <Space> next-line #overides next page
+
+
+#set pager_index_lines = 6
+unset mark_old 
+set menu_scroll
+
+subscribe dev@suckless.org
+subscribe arch-general@archlinux.org
+subscribe pianod@lists.deviousfish.com
+subscribe aur-general@archlinux.org

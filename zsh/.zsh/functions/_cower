@@ -1,0 +1,6 @@
+#compdef cower
+
+local -a packages
+packages=( $(lsaur) ) 
+
+_describe 'packages' packages

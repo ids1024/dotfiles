@@ -1,0 +1,94 @@
+http://feeds.feedburner.com/Phoronix "Linux"
+#http://lxer.com/module/newswire/headlines.rss "Linux"
+#http://www.tuxmachines.org/node/feed "Linux"
+http://feeds.feedburner.com/d0od "Linux"
+
+#Archlinux
+https://www.archlinux.org/feeds/news/ "Linux" "Arch" "~Arch News"
+#"query:Arch Packages:tags # \"ArchPackages\"" "Arch" "Linux"
+#https://www.archlinux.org/feeds/packages/x86_64/core/ "ArchPackages" "!Core"
+
+#"query:Arch BBS:tags # \"ArchBBS\"" "Arch" "Linux"
+#https://bbs.archlinux.org/extern.php?action=feed&fid=27&type=atom "ArchBBS" "!Comunity Contrib"
+#https://bbs.archlinux.org/extern.php?action=feed&fid=20&type=atom "ArchBBS" "!GNU/Linux"
+#https://bbs.archlinux.org/extern.php?action=feed&fid=1&type=atom "ArchBBS" "!Arch"
+#https://bbs.archlinux.org/extern.php?action=feed&fid=42&type=atom "ArchBBS" "!Try This"
+#https://bbs.archlinux.org/extern.php?action=feed&fid=29&type=atom "ArchBBS" "!Off Topic"
+
+"query:Linux Blogs:tags # \"LinuxBlogs\""
+http://allanmcrae.com/feed/ "Linux" "LinuxBlogs" "!Allan"
+http://ck-hack.blogspot.com/feeds/posts/default "Linux" "LinuxBlogs" "!Linux-ck"
+http://kmandla.wordpress.com/feed/ "LinuxBlogs" "!Kmandla"
+https://dvdhrm.wordpress.com/feed/ "LinuxBlogs" "!Ponyhof"
+http://ewontfix.com/feed.rss "LinuxBlogs" "!Ewontfix"
+http://jasonwryan.com/atom.xml "LinuxBlogs" "!Jason Wryan"
+http://brandon.invergo.net/atom.xml "LinuxBlogs" "!Brandon Invergo"
+http://git.tuxonice.net/rss.xml "LinuxBlogs" "!Nigel Cunningham"
+http://archlinux.me/drcouzelis/feed/ "LinuxBlogs" "!drcouzelis"
+
+http://inconsolation.wordpress.com/feed/ "Linux"
+#http://onethingwell.org/rss
+
+"query:Software:tags # \"Software\""
+http://blog.naev.org/feed/ "Software" "!Naev"
+http://feeds.feedburner.com/0AdNews?format=xml "Software" "!0AD"
+http://blog.lxde.org/?feed=rss2 "Software" "!Lxde"
+http://blog.golang.org/feed.atom "Software" "!Golang"
+http://wordpress.org/news/feed/ "Software" "!Wordpress"
+http://jetpack.me/feed/ "Software" "!Jetpack"
+http://ereleaseblog.wordpress.com/feed/ "Software" "!E"
+#https://bitbucket.org/portix/dwb/rss "Software" "!dwb"
+http://www.lwks.com/index.php?option=com_kunena&func=rss&format=feed&catid=19&Itemid=81 "Software" "!Lightworks"
+http://omnirom.org/feed/ "Software" "!Omnirom"
+http://www.ticalc.org/rss/news.rss "Software" "!Ticalc"
+http://www.reactos.org/blog/feed "Software" "!ReactOS"
+http://www.kdenlive.org/blog/feed "Software" "!Kdenlive"
+http://www.chainfire.eu/?mode=rss "Software" "!Chainfire"
+http://www.zenphoto.org/index.php?mergedrss "Software" "!ZenPhoto"
+
+#http://rss.sciam.com/ScientificAmerican-Global "Other"
+
+#http://www.haverford.edu/classics/audio/krlatin.xml
+
+"query:xkcd:tags # \"xkcd\""
+http://xkcd.com/rss.xml "xkcd" "!xkcd"
+http://blog.xkcd.com/feed/ "xkcd" "!Blog"
+http://what-if.xkcd.com/feed.atom "xkcd" "!What if"
+
+http://www.eff.org/rss/updates.xml "~Electronic Frontier Foundation"
+#http://feeds.bbci.co.uk/news/rss.xml
+#http://www.aljazeera.com/Services/Rss/?PostingId=2007731105943979989
+#http://feeds.esciencenews.com/eScienceNews/popular?format=xml
+#http://feeds.feedburner.com/GoogleOpenSourceBlog
+#http://feeds2.feedburner.com/hackaday/LgoM
+
+http://www.raspberrypi.org/blog/feed
+
+http://www.dracoville.com/news/feed.xml "Other"
+http://forum.naev.org/feed.php
+http://blog.man7.org/feeds/posts/default
+http://blog.octayn.net/atom.xml
+http://syndication.thedailywtf.com/TheDailyWtf
+
+http://www.hallquistcphs.com/ap-psychology/index.xml
+
+"query:Git Commits:tags # \"commits\""
+https://github.com/np1/mps-youtube/commits/develop.atom "commits" "!mps-youtube"
+https://github.com/darkfeline/dantalian/commits/master.atom "commits" "!dantalian"
+https://github.com/wardi/urwid/commits/master.atom "commits" "!urwid"
+http://git.2f30.org/smdev/atom/?h=master "commits" "!smdev"
+http://git.2f30.org/scron/atom/?h=master "commits" "!scron"
+http://git.2f30.org/sbase/atom/?h=master "commits" "!sbase"
+http://git.2f30.org/ubase/atom/?h=master "commits" "!ubase"
+http://git.2f30.org/sinit/atom/?h=master "commits" "!sinit"
+http://git.2f30.org/sdhcp/atom/?h=master "commits" "!sdhcp"
+http://git.2f30.org/imagefile/atom/?h=master "commits" "!imagefile"
+http://git.suckless.org/st/atom/?h=master "commits" "!st"
+http://git.suckless.org/dwm/atom/?h=master "commits" "!dwm"
+http://git.2f30.org/lel/atom/?h=master "commits" "!lel"
+http://git.2f30.org/xscreenshot/atom/?h=master "commits" "!xscreenshot"
+http://git.2f30.org/tinyxlib/atom/?h=master "commits" "!tinyxlib"
+http://git.2f30.org/tinyxserver/atom/?h=master "commits" "!tinyxserver"
+http://git.2f30.org/noice/atom/?h=master "commits" "!noice"
+
+http://feeds.feedburner.com/Wwwclaycordcom
