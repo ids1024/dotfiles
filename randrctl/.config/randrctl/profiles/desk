@@ -1,0 +1,25 @@
+{
+    "match":{
+        "LVDS1": {
+            "edid": "742cabe74e272645449240302ace70f4"
+        },
+        "VGA1": {
+            "edid": "c60adc813e9b836231d7c3c665d6743a"
+        }
+    },
+    "outputs": {
+        "LVDS1": {
+            "pos": "0x0",
+            "rotate": "normal",
+            "mode": "1920x1080",
+            "panning": "0x0"
+        },
+        "VGA1": {
+            "pos": "1920x0",
+            "rotate": "normal",
+            "mode": "1280x1024",
+            "panning": "0x0"
+        }
+    },
+    "primary": "LVDS1"
+}

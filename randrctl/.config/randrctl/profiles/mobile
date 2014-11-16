@@ -1,0 +1,16 @@
+{
+    "match":{
+        "LVDS1": {
+            "edid": "742cabe74e272645449240302ace70f4"
+        }
+    },
+    "outputs": {
+        "LVDS1": {
+            "mode": "1920x1080",
+            "rotate": "normal",
+            "panning": "0x0",
+            "pos": "0x0"
+        }
+    },
+    "primary": "LVDS1"
+}
