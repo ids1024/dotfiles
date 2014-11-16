@@ -10,7 +10,7 @@ jack = Task("start-jack")
 redshift = Task("redshift", background=True)
 xmodmap = Task("xmodmap", "/home/ian/.Xmodmap") #Required for mdev
 #xrandr = Task("xrandr", "--output", "VGA1", "--auto", "--right-of", "LVDS1")
-xrandr = Task("autorandr", "-c")
+xrandr = Task("randrctl", "auto")
 
 
 wicdgtk = Task("wicd-gtk", "-t", background=True)
