@@ -25,6 +25,7 @@ http://jasonwryan.com/atom.xml "LinuxBlogs" "!Jason Wryan"
 http://brandon.invergo.net/atom.xml "LinuxBlogs" "!Brandon Invergo"
 http://git.tuxonice.net/rss.xml "LinuxBlogs" "!Nigel Cunningham"
 http://archlinux.me/drcouzelis/feed/ "LinuxBlogs" "!drcouzelis"
+http://blog.man7.org/feeds/posts/default "LinuxBlogs" "!man7"
 
 http://inconsolation.wordpress.com/feed/ "Linux"
 #http://onethingwell.org/rss
@@ -66,7 +67,6 @@ http://www.raspberrypi.org/blog/feed
 
 http://www.dracoville.com/news/feed.xml "Other"
 http://forum.naev.org/feed.php
-http://blog.man7.org/feeds/posts/default
 http://blog.octayn.net/atom.xml
 http://syndication.thedailywtf.com/TheDailyWtf
 
