@@ -1,4 +1,5 @@
 set my_name = 'Ian D. Scott'
+set realname = 'Ian D. Scott'
 set from = 'ian@perebruin.com'
 alternates 'scott-ian@sbcglobal.net'
 set editor = 'vim'
