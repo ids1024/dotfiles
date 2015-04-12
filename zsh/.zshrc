@@ -186,10 +186,6 @@ function mkdirlink {
 
 fpath=(~/.zsh/functions $fpath)
 
-if [[ $TERM = st-256color ]]
-then
-	stty erase ^H
-fi
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
