@@ -38,6 +38,7 @@ environments = (
         ('dosbox', 'dosbox', None),
         ('gnome', 'gnome-session', None),
         ('xmonad', 'xmonad', None),
+        ('velox', 'velox', (xrandr,))
         )
 
 default_environment = 'dwm'
